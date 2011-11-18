@@ -1,0 +1,40 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <script type="text/javascript" src="functions.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css" /> 
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <form method="get" action="DynCurrencyExchangeHandler" onSubmit="return check(this)">
+            <fieldset>
+                <legend>Input Form</legend>
+                <p><label>Select input currency</label>
+                <select class="input" name="inputCur">
+                    <option value="USD" selected="selected">U.S Dollar (USD)</option>
+                    <option value="EUR">Euro (EUR)</option>
+                    <option value="GBP">United Kingdom Pound (GBP)</option>
+                </select></p>
+                <p><label>Enter the amount</label>
+                <input type="text" class="input" name="amount1" size="17" value="" />
+                <p><label>Select output currency</label>
+                <select class="input" name="outputCur">
+                    <option value="USD">U.S Dollar (USD)</option>
+                    <option value="EUR" selected="selected">Euro (EUR)</option>
+                    <option value="GBP">United Kingdom Pound (GBP)</option>
+                </select></p>
+                <p><label>&nbsp; </label>
+                <input type="submit" value="Calculate" class="button" /></p>
+            </fieldset>
+        </form>
+        <form id="report" method="get" action="RedToReportHandler">
+            <input type="submit" value="Read Report" class="button" />
+        </form>
+        <label class="copy">Apostolis Nastos</label>
+    </body>
+</html>

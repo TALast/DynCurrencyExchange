@@ -1,0 +1,70 @@
+body {
+    background-color: #eee;
+}
+
+div.content {
+    width: 300px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: #595959;
+    border:1px dashed #333;
+    padding-top: 10px;
+    text-align: left;
+    color: #fff;
+}
+
+fieldset {
+    width: 400px;
+    height: 180px;
+    background-color: #595959;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+legend {
+    color: #000;
+}
+
+.input {
+    border: 1px solid #006;
+    width: 190px;
+}
+
+.input:hover {
+    border: 1px solid #f00;
+}
+
+.button {
+    border: 1px solid #006;
+    background: #ccf;
+}
+
+.button:hover {
+    border: 1px solid #f00;
+    background: #eef;
+}
+
+label {
+    display: block;
+    width: 150px;
+    float: left;
+    margin: 2px 4px 6px 4px;
+    text-align: right;
+}
+
+br { clear: left; }
+
+label.copy {
+    position: absolute;
+    bottom: 0.3em;
+    right: 0.3em;
+    color: #696969;
+}
+
+#report {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
